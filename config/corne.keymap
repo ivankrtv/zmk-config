@@ -39,22 +39,22 @@
 
         lftbrace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <15 16>;
+            key-positions = <13 14>;
         };
 
         rghtbrace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <17 18>;
+            key-positions = <15 16>;
         };
 
         opnsqrt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <27 28>;
+            key-positions = <24 23>;
         };
 
         rghtsqrt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <29 30>;
+            key-positions = <25 26>;
         };
     };
 
@@ -82,7 +82,7 @@
         layer_2 {
             bindings = <
 &none  &kp ESCAPE                            &none  &kp PAGE_UP           &kp C_NEXT        &kp C_VOLUME_UP      &kp C_BRI_UP          &kp F1      &kp F2        &kp F3   &kp F4   &none
-&none  &none                                 &none  &kp HOME              &kp C_PLAY_PAUSE  &kp K_MUTE           &kp COLON             &kp F5      &kp F6        &kp F7   &kp F8   &none
+&none  &bt BT_CLR_ALL                        &none  &kp HOME              &kp C_PLAY_PAUSE  &kp K_MUTE           &kp COLON             &kp F5      &kp F6        &kp F7   &kp F8   &none
 &none  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &none  &kp PAGE_DOWN         &kp C_PREVIOUS    &kp C_VOLUME_DOWN    &kp C_BRIGHTNESS_DEC  &kp F9      &kp F10       &kp F11  &kp F12  &none
                                                     &mt LEFT_CONTROL TAB  &kp LEFT_COMMAND  &lt 2 SPACE          &kp KP_COMMA          &kp KP_DOT  &kp QUESTION
             >;
